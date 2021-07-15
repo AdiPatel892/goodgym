@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style-register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="../images/logo.jpg" alt="Logo">
+        <span>The GYM</span>
+        <section></section>
+        <div>
+            <ul>
+                <li><a href='/' target="_blank">Home</a></li>
+                <!-- <li><a href='#'>About</a></li>
+                <li><a class='a' href='#'>Contact us</a></li> -->
+
+            </ul>
+        </div>
+    </nav>
+    <div class="register">
+        <h1>
+            Register now
+            
+                 </h1>
+        <form action="/register" method="POST" target="_blank">
+            <input id="fname"type="text" name="fname"  placeholder="Enter Your First Name">
+            <br>
+            <input id="lname"type="text" name="lname"  placeholder="Enter Your Last Name">
+          <div class="gender"> <span>Gender :</span> <br>
+       <input type="radio" name="gender" value="Male">
+            <label for="">Male</label> <br>
+            <input type="radio" name="gender" value="Female">
+            <label for="">Female</label> <br>
+            <input type="radio" name="gender" value="Other"><label for="">Other</label> <br>
+        </div> 
+        <div class="after-gender"></div>
+            <input id="country"type="text" name="Country"  placeholder="Enter Your Country">
+            <input id="state-ut"type="text" name="state"  placeholder="Enter Your State/UT">
+            <input id="city"type="text" name="city"  placeholder="Enter your City">
+            <input id="email"type="email" name="email"  placeholder="Enter your EMAIL Address">
+           
+           <div class="textarea"> <textarea id="subject" name="subject"  placeholder="Tell us Something ">Tell  something about You </textarea></div>
+         <input id="SUBMIT" type="submit" value="Submit"></div>
+        </form>            
+    <div class="javascript-projects">
+        <div class="btn">
+        <button class="light-theme">Light</button>
+        <button class="dark-theme">Dark</button></div>
+    </div>
+    
+
+
+</div>
+
+
+
+
+
+<footer>    Copyright © The Good GYM. All rights reserved</footer>
+
+
+
+
+
+
+
+<div id="time">  <span id="getHours">
+
+    00
+   
+ </span>
+ <span>:</span>
+ <span id="getMinutes">
+
+     00
+     
+ </span>
+ <span>:</span>
+ <span id="getSeconds">
+
+    00
+     
+ </span>
+</div>
+</body>
+<script src="../static/brain-register.js"></script>
+</html>
